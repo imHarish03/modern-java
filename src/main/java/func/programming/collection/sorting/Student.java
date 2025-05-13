@@ -1,4 +1,4 @@
-package func.programming.sorting;
+package func.programming.collection.sorting;
 
 public class Student implements Comparable<Student> {
 

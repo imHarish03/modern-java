@@ -1,11 +1,7 @@
-package func.programming.sorting;
-
-import func.programming.Car;
-import func.programming.CartItem;
+package func.programming.collection.sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public class Example1 {
     public static void main(String[] args) {

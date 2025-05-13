@@ -1,4 +1,4 @@
-package func.programming.sorting;
+package func.programming.collection.sorting;
 
 import java.util.*;
 
