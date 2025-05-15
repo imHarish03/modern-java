@@ -7,14 +7,16 @@ public class Instructor {
 	private String name;
 	private boolean online;
 	private int expreience;
+	private boolean isEnrolled;
 	private List<Courses> courses;
 
-	public Instructor(int id, String name, List<Courses> courses, boolean online, int expreience) {
+	public Instructor(int id, String name, List<Courses> courses, boolean online, int expreience,boolean isEnrolled) {
 		this.id = id;
 		this.name = name;
 		this.courses = courses;
 		this.online = online;
 		this.expreience = expreience;
+		this.isEnrolled=isEnrolled;
 	}
 
 	public int getExpreience() {
@@ -55,6 +57,10 @@ public class Instructor {
 
 	public void setCourses(List<Courses> courses) {
 		this.courses = courses;
+	}
+
+	public boolean isEnrolled() {
+		return isEnrolled;
 	}
 
 }
